@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
 
-// import { Container } from './styles';
+import { Title } from './styles';
 
+const name = 'Pedro';
 function Main() {
-  return <h1>Main</h1>;
+  return <Title error>Olá {name}</Title>;
 }
 
 export default Main;
