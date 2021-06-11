@@ -7,8 +7,9 @@ function Main() {
   return (
     <>
       <Header>
-        <a href="/Curso">BootCamp</a>
-        <a href="/renan">Renan</a>
+        <Link to="/curso">BootCamp</Link>
+        <Link to="/renan">Renan</Link>
+
         <a href="https://www.facebook.com/profile.php?id=100001247365604">
           Facebook
         </a>
@@ -16,7 +17,7 @@ function Main() {
       <Conteiner>
         <h1>
           <CamilaButton>
-            <Link to="/renan">
+            <Link to="/camilinda">
               <FaGrinHearts transform="scale(1.5)" />
             </Link>
           </CamilaButton>

@@ -37,3 +37,15 @@ export const Header = styled.div`
     text-align: center;
   }
 `;
+export const Button = styled.button`
+  background: rgb(14, 51, 181);
+  border: 1px solid #000;
+  border-radius: 4px;
+
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  min-width: 65px;
+  max-width: 100px;
+  text-align: center;
+`;
