@@ -16,7 +16,7 @@ function Main() {
       <Conteiner>
         <h1>
           <CamilaButton>
-            <Link to="/camilinda">
+            <Link to="/renan">
               <FaGrinHearts transform="scale(1.5)" />
             </Link>
           </CamilaButton>
