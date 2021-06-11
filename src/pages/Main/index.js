@@ -8,7 +8,7 @@ function Main() {
     <>
       <Header>
         <a href="/Curso">BootCamp</a>
-        <a href="/camilinda">Camila</a>
+        <a href="/renan">Renan</a>
         <a href="https://www.facebook.com/profile.php?id=100001247365604">
           Facebook
         </a>

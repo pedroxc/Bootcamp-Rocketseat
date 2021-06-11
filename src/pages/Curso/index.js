@@ -84,7 +84,7 @@ export default class Curso extends Component {
           </List>
           <h2>
             <CamilaButton>
-              <Link to="/camilinda">
+              <Link to="/repository">
                 <FaGrinHearts transform="scale(1.5)" />
               </Link>
             </CamilaButton>
