@@ -27,7 +27,7 @@ function Main() {
 
         <h2>
           <img src={will} alt="will" className="will" />
-          <img src={xuxus} alt="xuxus" className="photo" />
+          <img src={xuxus} alt="xuxus" className="xuxus" />
         </h2>
       </Conteiner>
     </>

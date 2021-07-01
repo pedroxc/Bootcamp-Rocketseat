@@ -17,6 +17,9 @@ export const Conteiner = styled.div`
     left: 5vw;
     top: 5vh;
   }
+  .xuxus {
+    border-radius: 40px;
+  }
 `;
 
 export const CamilaButton = styled.button`
