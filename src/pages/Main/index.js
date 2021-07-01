@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaGrinHearts } from 'react-icons/fa';
-import { Conteiner, Header, CamilaButton } from './styles';
+import { Conteiner, Header, CamilaButton, ImageConteiner } from './styles';
 import xuxus from '../../xuxus.jpeg';
 import will from '../../will.png';
 
@@ -25,10 +25,10 @@ function Main() {
           </CamilaButton>
         </h1>
 
-        <h2>
+        <ImageConteiner>
           <img src={will} alt="will" className="will" />
           <img src={xuxus} alt="xuxus" className="xuxus" />
-        </h2>
+        </ImageConteiner>
       </Conteiner>
     </>
   );

@@ -6,22 +6,28 @@ export const Conteiner = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+`;
+export const ImageConteiner = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+
   img {
+    height: 400px;
     padding: 20px;
     position: relative;
-    height: 400px;
   }
   .will {
     z-index: 2;
     position: relative;
-    left: 5vw;
+    left: 30vw;
     top: 5vh;
   }
   .xuxus {
+    flex: 1;
     border-radius: 40px;
   }
 `;
-
 export const CamilaButton = styled.button`
   background: rgb(14, 51, 181);
   height: 40px;
