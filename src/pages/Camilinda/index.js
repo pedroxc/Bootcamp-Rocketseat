@@ -3,8 +3,6 @@ import { FiRotateCw } from 'react-icons/fi';
 import image from '../../logo.png';
 import { Conteiner, RodarButton, Header } from './styles';
 
-// import { Container } from './styles';
-
 export default class Camilida extends Component {
   constructor(props) {
     super(props);
