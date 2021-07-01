@@ -15,6 +15,7 @@ export const Conteiner = styled.div`
     z-index: 2;
     position: relative;
     left: 5vw;
+    top: 5vh;
   }
 `;
 
