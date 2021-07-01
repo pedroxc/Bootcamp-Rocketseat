@@ -3,8 +3,20 @@ import styled from 'styled-components';
 export const Conteiner = styled.div`
   margin: 100px auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  img {
+    padding: 20px;
+    position: relative;
+    height: 400px;
+  }
+  .will {
+    z-index: 2;
+    position: relative;
+    left: 8vw;
+    top: 10vh;
+  }
 `;
 
 export const CamilaButton = styled.button`
