@@ -1,21 +1,29 @@
 import React from 'react';
-import { FaGithubAlt, FaPlus } from 'react-icons/fa';
-import { Conteiner, Form, SubmitButton } from './styles';
+import { Link } from 'react-router-dom';
+import { FaGrinHearts } from 'react-icons/fa';
+import { Conteiner, Header, CamilaButton } from './styles';
 
 function Main() {
   return (
-    <Conteiner>
-      <h1>
-        <FaGithubAlt />
-        Repositórios
-      </h1>
-      <Form onSubmit={() => {}}>
-        <input type="text" placeholder="Adicionar repositório" />
-        <SubmitButton>
-          <FaPlus color="#FFF" size={14} />
-        </SubmitButton>
-      </Form>
-    </Conteiner>
+    <>
+      <Header>
+        <Link to="/curso">BootCamp</Link>
+        <Link to="/renan">Renan</Link>
+
+        <a href="https://www.facebook.com/profile.php?id=100001247365604">
+          Facebook
+        </a>
+      </Header>
+      <Conteiner>
+        <h1>
+          <CamilaButton>
+            <Link to="/camilinda">
+              <FaGrinHearts transform="scale(1.5)" />
+            </Link>
+          </CamilaButton>
+        </h1>
+      </Conteiner>
+    </>
   );
 }
 

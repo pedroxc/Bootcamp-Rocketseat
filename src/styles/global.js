@@ -11,7 +11,8 @@ html,body,#root{
   mini-height: 100%;
 }
 body{
-  background: #7159c1;
+  background: #0b6799;
+
   -webkit-font-smoothing: antialiased !important;
 
 }

@@ -1,51 +1,51 @@
 import styled from 'styled-components';
 
 export const Conteiner = styled.div`
-  max-width: 700px;
-  background: #fff;
-  border-radius: 4px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  margin: 80px auto;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
-  h1 {
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+export const CamilaButton = styled.button`
+  background: rgb(14, 51, 181);
+  height: 40px;
+  width: 40px;
+  border-radius: 4px;
+
   svg {
-    margin-right: 10px;
+    align-items: center;
+    color: white;
   }
 `;
-
-export const Form = styled.form`
-  margin-top: 30px;
+export const Header = styled.div`
+  align-items: center;
   display: flex;
-  flex-direction: row;
+  padding: 30px;
+  border: 2px;
 
-  input {
-    flex: 1;
-    border: 1 solid #000;
-    padding: 10px 15px;
+  a {
+    background: rgb(14, 51, 181);
+    border: 1px solid #000;
     border-radius: 4px;
-    font-size: 16px;
+
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    min-width: 65px;
+    max-width: 100px;
+    text-align: center;
   }
 `;
-
-export const SubmitButton = styled.button.attrs({
-  type: 'submit',
-})`
-  background: #7159c1;
-  border: 0;
-  padding: 0 15px;
-  margin-left: 10px;
+export const Button = styled.button`
+  background: rgb(14, 51, 181);
+  border: 1px solid #000;
   border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  min-width: 65px;
+  max-width: 100px;
+  text-align: center;
 `;
