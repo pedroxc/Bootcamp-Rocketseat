@@ -14,8 +14,7 @@ export const Conteiner = styled.div`
   .will {
     z-index: 2;
     position: relative;
-    left: 8vw;
-    top: 10vh;
+    left: 5vw;
   }
 `;
 
