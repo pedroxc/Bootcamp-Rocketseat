@@ -29,7 +29,7 @@ export const ImageConteiner = styled.div`
   }
 `;
 export const CamilaButton = styled.button`
-  background: rgb(14, 51, 181);
+  background: #231000;
   height: 40px;
   width: 40px;
   border-radius: 4px;
@@ -46,7 +46,7 @@ export const Header = styled.div`
   border: 2px;
 
   a {
-    background: rgb(14, 51, 181);
+    background: #231000;
     border: 1px solid #000;
     border-radius: 4px;
 
@@ -59,7 +59,7 @@ export const Header = styled.div`
   }
 `;
 export const Button = styled.button`
-  background: rgb(14, 51, 181);
+  background: #231000;
   border: 1px solid #000;
   border-radius: 4px;
 
