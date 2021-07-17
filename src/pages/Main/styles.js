@@ -51,7 +51,7 @@ export const Header = styled.div`
     border-radius: 4px;
 
     text-decoration: none;
-    color: black;
+    color: white;
     margin: auto;
     min-width: 65px;
     max-width: 100px;
