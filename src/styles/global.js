@@ -17,7 +17,7 @@ body{
 
 }
 body,input,button{
-  color: #231000;
+  color: #231001;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
 }
