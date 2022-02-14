@@ -29,7 +29,7 @@ export const HairWarpper = styled.div.attrs(() => ({}))`
   .photo {
     height: 35vh;
 
-    animation: ${move} 0.5s linear infinite;
+    animation: ${move} 2s linear infinite;
     &${(props) => !props.cabeloMover} {
       animation-play-state: paused;
     }
